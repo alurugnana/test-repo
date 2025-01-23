@@ -17,7 +17,7 @@ by WeDAA (https://www.wedaa.tech/)
 #           Server Socket
 # ===============================================
 
-# bind - The server socket to bind test
+# bind - The server socket to bind
 bind = "0.0.0.0:5555" 
 
 # ===============================================
