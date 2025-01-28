@@ -1,4 +1,4 @@
-# Use Python 3.9 slim as the base-image-1 123
+# Use Python 3.9 slim as the base-image-1
 FROM python:3.9-slim AS base
 
 # Set the working directory inside the container
@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy only the requirements file to leverage Docker cache
 COPY requirements.txt .
 
-# Install the dependencies
+# Installing the dependencies 
 RUN pip install -r requirements.txt
 
 # Copy the entire application code to the container
